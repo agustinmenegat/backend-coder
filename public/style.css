@@ -1,0 +1,104 @@
+body {
+    margin: 20px;
+    /*background-color: #E7E9EB;*/
+}
+
+h2 {
+    color: rgb(11, 11, 184);
+    font-weight: bold;
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+input[type=text],
+#fprice {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.input-chat{
+    width: 300px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px transparent solid;
+    margin-right: 15px;
+    
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #04945f;
+}
+
+label {
+    font-weight: bold
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #3d4244;
+}
+
+th {
+    padding: 18px;
+}
+
+tr {
+    border-bottom: 0.5px solid #DDD;
+}
+
+.row {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fila {
+    padding: 5px;
+}
+
+.seccion-productos {
+    border: 1px transparent grey;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.seccion-chat {
+    border: 1px transparent grey;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
